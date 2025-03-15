@@ -1,8 +1,47 @@
-# React + Vite
+# React Project Series
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Markdown Previewer
 
-Currently, two official plugins are available:
+This is a simple Markdown Previewer built using React.js. It allows users to write and preview Markdown syntax in real time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+
+Live preview of Markdown text
+
+Supports common Markdown syntax
+
+User-friendly interface
+
+Installation
+
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+git clone https://github.com/your-username/markdown-previewer.git
+
+Navigate to the project folder:
+
+cd markdown-previewer
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm start
+
+Usage
+
+Type Markdown syntax in the input area.
+
+The preview section will display the formatted output.
+
+Technologies Used
+
+React.js
+
+Tailwind CSS (if used for styling)
+
+marked library (for parsing Markdown)
